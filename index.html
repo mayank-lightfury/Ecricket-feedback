@@ -1,9 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting to Feedback Form</title>
+
+    <!-- Prevent browser caching so URL changes take effect immediately -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Meta refresh fallback -->
     <meta http-equiv="refresh" content="0; url=https://forms.gle/8LmmFdgbJKqnmXrq8" />
+
+    <!-- Instant JavaScript redirect -->
+    <script>
+      window.location.replace("https://forms.gle/8LmmFdgbJKqnmXrq8");
+    </script>
   </head>
-  <body>
-    <p>Redirecting to feedback form...</p>
+  <body style="font-family: sans-serif; text-align: center; padding-top: 50px;">
+    <p>Redirecting to the feedback form...</p>
+    <p>
+      If you are not redirected automatically, 
+      <a href="https://forms.gle/8LmmFdgbJKqnmXrq8" style="color: #1a73e8; font-weight: bold;">
+        click here
+      </a>.
+    </p>
   </body>
 </html>
